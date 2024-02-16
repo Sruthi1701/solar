@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .solar-panel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  
+  .solar-panel {
+    width: 300px;
+    height: 300px;
+    background-image: url('solar-panel.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+  }
+  
+  .sensor-box {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    min-width: 200px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .sensor-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sensor-box h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .sensor-box p {
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .connect-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .connect-button:hover {
+    background-color: #45a049;
+  }
+  
+  .reset-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reset-button:hover {
+    background-color: #f44336;
+  }
+  
+  .save-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #1e88e5;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  

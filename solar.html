@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUNSAVER: AUTOMATIC ENERGY OPTIMIZATION WITH MONITORING SYSTEM</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SUNSAVER</h1>
+      <h2>AUTOMATIC ENERGY OPTIMIZATION WITH MONITORING SYSTEM</h2>
+    </div>
+  </header>
+  <style>
+    body{
+background-image: url('solar.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+    }
+    </style>
+  <section class="solar-panel-container">
+    <div class="solar-panel"></div>
+    <div class="sensor-box">
+      <h2>Current Sensor</h2>
+      <p id="currentValue">-</p>
+    </div>
+    <div class="sensor-box">
+      <h2>Voltage Sensor</h2>
+      <p id="voltageValue">-</p>
+    </div>
+    <div class="sensor-box">
+      <h2>Temperature Sensor (LM35)</h2>
+      <p id="temperatureValue">-</p>
+    </div>
+    <div class="sensor-box">
+      <h2>Light Sensor (LDR)</h2>
+      <p id="ldrValue">-</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <button class="button connect-button" onclick="connect()">Connect</button>
+      <button class="button reset-button" onclick="reset()">Reset</button>
+      <button class="button save-button" onclick="save()">Save Data</button>
+    </div>
+  </footer>
+</body>
+</html>
